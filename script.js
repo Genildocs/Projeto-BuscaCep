@@ -13,3 +13,11 @@
         console.log(user_json)
     })
   }
+
+  function limparCampo(){
+      document.getElementById("busca_cep").value = "";
+      document.getElementById("cep_number").innerHTML = ""
+      document.getElementById("address").innerHTML = ""
+      document.getElementById("district").innerHTML = ""
+      document.getElementById("city").innerHTML = ""
+  }
