@@ -1,15 +1,15 @@
   function buscaCep(){
     const busca_cep = document.getElementById("busca_cep").value
 
-    const server_url = `https://cep.awesomeapi.com.br/json/${busca_cep}`
+    const cep_url = `https://viacep.com.br/ws/${busca_cep}/json/`
 
-    fetch(server_url)
+    fetch(cep_url)
     .then((server_response)=> server_response.json())
     .then((user_json) => {
         document.getElementById("cep_number").innerHTML = "Cep: " + user_json.cep
-        document.getElementById("address").innerHTML = "Endereço: " + user_json.address
-        document.getElementById("district").innerHTML = "Bairro: " + user_json.district
-        document.getElementById("city").innerHTML = "Cidade: " + user_json.city + "/" + user_json.state
+        document.getElementById("address").innerHTML = "Endereço: " + user_json.logradouro
+        document.getElementById("district").innerHTML = "Bairro: " + user_json.bairro
+        document.getElementById("city").innerHTML = "Cidade: " + user_json.localidade + "/" + user_json.uf
         console.log(user_json)
     })
   }
