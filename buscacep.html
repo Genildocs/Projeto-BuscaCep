@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busca Cep</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
     <script src="./script.js" defer ></script>
 </head>
 <body>
-    <h2>Busca de Cep</h2>
-    <div id="container">
+    
+    <div class="container" id="container">
+        <h2>Busca de Cep</h2>
         <label for="cep">Digite um Cep para pesquisar:</label>
         <br>
         <input type="text" name="" id="busca_cep" placeholder="cep">
         <input type="button" value="pesquisar" onclick="buscaCep()">
         <input type="button" value="Limpar" onclick="limparCampo()">
 
+
+        
         <p id="cep_number"></p>
         <p id="address"></p>
         <p id="district"></p>
