@@ -14,7 +14,10 @@
     })
   }
 
-  function limparCampo(){
+ 
+  let btn = document.getElementById("limpaform");
+
+  btn.onclick = function(){
       document.getElementById("busca_cep").value = "";
       document.getElementById("cep_number").innerHTML = ""
       document.getElementById("address").innerHTML = ""
