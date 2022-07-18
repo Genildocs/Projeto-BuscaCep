@@ -22,6 +22,7 @@
 
 #container2{
     margin-top: 100px;
+    display: flex;
 }
 
 #maps{
@@ -63,4 +64,21 @@ p{
     color: orange;
     padding-top: 10px;
     margin-left: 5px;
+}
+
+
+#row2{
+    width: 500px;
+    border-radius: 5px;
+    color: orange;
+    padding-left: 10px;
+    
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: #163657;
+    border-radius: 5px;
+    margin-top: 15px;
 }

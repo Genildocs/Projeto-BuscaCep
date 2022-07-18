@@ -22,19 +22,19 @@
             </div>
             <div class="col2 col align-self-center">
                 <a  href="#">Dicas</a>
-                <a  href="#">Serviços</a>
-                <a  href="#">Mapas</a>
+                <a  href="#row2">Serviços</a>
+                <a  href="#maps">Mapas</a>
             </div>
         </div>
     </div>
 
     <!--Corpo do site-->
     <div class="container" id="container2">
-        <div class="row" id="row1">
+        <div class="row col3 col"  id="row1">
             <h6>Digite um Cep para pesquisar:</h6>
             
             <div class="input-group">
-                <input type="text" name="" id="busca_cep" class="form-control" placeholder="pesquise cep ou endereço" aria-label="Recipient's username with two button addons">
+                <input type="text" name="" id="busca_cep" class="form-control" placeholder="pesquise cep ou endereço" >
                 <button class="btn btn-outline-secondary" type="button" value="pesquisar" onclick="buscaCep()">Pesquisar</button>
                 <button class="btn btn-outline-secondary" type="button" id="limpaform" value="Limpar" >Limpar</button>
             </div>     
@@ -43,6 +43,10 @@
             <p id="address"></p>
             <p id="district"></p>
             <p id="city"></p>
+        </div>
+
+        <div class="row col4 col align-self-center" id="row2">
+            <h5>O Seu Cep! É uma ferramenta que você pode utilizar para consulta de cep, endereço, rastreamento de encomendas nacionais e internacionais de forma prática e rápida. </h5>
         </div>
     </div>
 
@@ -57,7 +61,7 @@
         
     <!--Footer-->
     <div class="container " id="footer">
-        <div class="row">
+        <div class="row ">
             <p>Produzido por Genildocs</p>
         </div>
     </div>
