@@ -23,4 +23,7 @@
       document.getElementById("address").innerHTML = ""
       document.getElementById("district").innerHTML = ""
       document.getElementById("city").innerHTML = ""
+      
   }
+
+  

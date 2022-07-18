@@ -1,7 +1,66 @@
-#container{
+#container{    
+    padding: 5px;
+    background-color: #163657;
+    border-radius: 3px;    
+}
+
+.bi-arrow-repeat{
+    font-size: 40px;
+    color: orange;
+    margin: 20px;
+}
+
+.col{
+   margin: 2px;
+}
+
+.col2 a{
+    color: orange;
+    margin: 50px;
+    text-decoration: none;
+}
+
+#container2{
+    margin-top: 100px;
+}
+
+#maps{
+    margin-top: 20px;
+}
+
+h4, h6{
+    color: #666;
+}
+
+
+#row1{
+    width: 500px;
+    background-color: #163657;
+    border-radius: 5px;
+}
+
+#row1 h6{
+    color: orange;
+    margin-bottom: 20px;
     margin-top: 15px;
 }
 
-label{
-    margin-bottom: 5px;
+.bi-search{
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 450px;
+}
+
+.btn-outline-secondary{
+    text-decoration: none;
+    color: orange;
+}
+.btn-outline-secondary:hover{
+    background-color: orange;
+}
+
+p{
+    color: orange;
+    padding-top: 10px;
+    margin-left: 5px;
 }
