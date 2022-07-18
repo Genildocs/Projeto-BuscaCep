@@ -1,0 +1,23 @@
+{
+  "name": "projeto-buscacep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Genildocs/Projeto-BuscaCep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Genildocs/Projeto-BuscaCep/issues"
+  },
+  "homepage": "https://github.com/Genildocs/Projeto-BuscaCep#readme",
+  "dependencies": {
+    "correios-brasil": "^3.0.0"
+  }
+}
