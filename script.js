@@ -1,4 +1,4 @@
-  function buscaCep(){
+ /* function buscaCep(){
     const busca_cep = document.getElementById("busca_cep").value
 
     const cep_url = `https://viacep.com.br/ws/${busca_cep}/json/`
@@ -25,5 +25,5 @@
       document.getElementById("city").innerHTML = ""
       
   }
-
+*/
   
