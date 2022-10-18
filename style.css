@@ -72,9 +72,24 @@ p{
     border-radius: 5px;
     color: orange;
     padding-left: 10px;
+    background-color: #163657;
+    border: 2px solid red;
     
 }
 
+#title{
+    color: orange;
+    padding-top: 10px;
+}
+
+#moedas{
+    color: orange;
+    padding-top: 10px;
+}
+
+#cotacao{
+    align-items: center;
+}
 #footer{
     display: flex;
     justify-content: center;
