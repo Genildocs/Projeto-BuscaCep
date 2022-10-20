@@ -97,3 +97,12 @@ p{
     border-radius: 5px;
     margin-top: 15px;
 }
+
+#exemplo{
+    font-size: 11px;
+    color: aliceblue;
+}
+
+#image{
+    width: 1500px;
+}

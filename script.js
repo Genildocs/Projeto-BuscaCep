@@ -46,4 +46,4 @@ fetch(url + coins)
     
     })
 
-    alert('Site em constante atualização...')
+   
